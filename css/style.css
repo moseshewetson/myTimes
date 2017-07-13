@@ -1,0 +1,34 @@
+/*header*/
+
+header {
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid black;
+    height: 80px;
+}
+header .logo {
+    display: flex;
+    color: mediumaquamarine;
+    align-items: center;
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+nav span {
+    padding-right: 40px;
+}
+nav span a {
+    color: black;
+}
+.logo img {
+    height: 60px;
+    width: 70px;
+    margin-right: 12px;
+}
