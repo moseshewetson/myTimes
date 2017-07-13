@@ -6,20 +6,24 @@ header {
     font-size: 14px;
     font-weight: bold;
     width: 100%;
-    position: fixed;
     border-bottom: 1px solid black;
     height: 80px;
+    position: fixed;
+    left: 0;
 }
-header .logo {
+div.logo {
     display: flex;
     color: mediumaquamarine;
     align-items: center;
     flex-grow: 1;
+    padding-left: 30px;
 }
 nav {
     display: flex;
     color: black;
     align-items: center;
+    flex-wrap: wrap;
+    padding-left: 12px
 }
 nav span {
     padding-right: 40px;
