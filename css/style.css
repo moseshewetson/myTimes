@@ -10,6 +10,10 @@ header {
     height: 80px;
     position: fixed;
     left: 0;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    background-color: white
 }
 div.logo {
     display: flex;
@@ -35,4 +39,39 @@ nav span a {
     height: 60px;
     width: 70px;
     margin-right: 12px;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    border: 1px solid black;
+    margin: 0 auto 78px auto;
+    width: 1232px;
+    padding-top: 116px;
+}
+.large {
+    display: flex;
+    border: 1px solid black;
+    width: 630px;
+    flex-direction: column;
+    margin-right: 32px;
+    flex-grow: 2
+}
+.medium {
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    flex-direction: column;
+    margin-right: 32px;
+}
+.small {
+    display: flex;
+    border: 1px solid black;
+    width: 240px;
+    flex-direction: column;
+    margin-right: 32px;
+}
+.main div {
+    border: 1px solid black;
 }
