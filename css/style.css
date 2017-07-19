@@ -75,3 +75,43 @@ nav span a {
 .main div {
     border: 1px solid black;
 }
+.main-story .story-image {
+    background-image: url("../media/img-story-main.png");
+    display: flex;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.story-story {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+.story-image {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+.story1 .story-image {
+    background-image: url("../media/img-story-2.png");
+    display: flex;
+}
+.story2 .story-image {
+    background-image: url("../media/img-story-3.png");
+    display: flex;
+}
+.story3 .story-image {
+    background-image: url("../media/img-story-1.png");
+    display: flex;
+}
+.story-story {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
