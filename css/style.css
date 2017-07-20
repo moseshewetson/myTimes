@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /*header*/
 
 header {
@@ -9,8 +13,6 @@ header {
     border-bottom: 1px solid black;
     height: 80px;
     position: fixed;
-    left: 0;
-    top: 0;
     z-index: 1;
     align-items: center;
     background-color: white
@@ -88,6 +90,9 @@ nav span a {
     display: flex;
     flex-direction: column;
 }
+
+/*end*/
+
 .main-story .story-image {
     background-image: url("../media/img-story-main.png");
     display: flex;
@@ -135,4 +140,31 @@ nav span a {
     width: 300px;
     display: flex;
     flex-direction: column;
+}
+
+/*footer css*/
+
+footer {
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 325px;
+    justify-content: center;
+}
+footer .mytimes {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-right: 2px solid white;
+    padding: 0 25px;
+    margin-right: 20px;
+}
+footer a {
+    color: black;
+    padding: 20px 10px;
 }
